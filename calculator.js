@@ -1,5 +1,6 @@
 
-    const textarea = document.getElementById("resultat");
+
+ const textarea = document.getElementById("resultat");
     const buttons = document.querySelectorAll(".keypad button");
 
     buttons.forEach(button => {
@@ -13,6 +14,10 @@
                 }
             } else {
                 textarea.value += buttonText;
+            }
+            if(textarea.value=="undefined"||textarea.value=="infinity")
+            {
+                textarea.value="Error";
             }
         });
     });
