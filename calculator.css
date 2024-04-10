@@ -1,0 +1,55 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(180, 225, 210);
+}
+
+.main{
+
+    
+    font-family: 'Times New Roman', Times, serif;
+    height: 1200px;
+}
+
+.calc{
+    
+   margin:20px;
+   margin-left:400px;
+    border: solid 6px;
+    border-color: black;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 1);
+    width: 500px;
+    height: 600px;
+}
+
+.main .h1{
+    margin:50px;
+    margin-left:450px;
+}
+
+#resultat{
+    width: 490px;
+    height: 120px;
+    border: solid 8px;
+    background-color: aliceblue;
+}
+.keypad button{
+    width: 70px;
+    height: 70px;
+    border: solid 4px;
+    border-radius: 6px;
+    background-color: cadetblue;
+}
+.l1,.l2,.l3,.l4,.l5{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+   
+   
+}
+
+.keypad button:hover{
+    color: rgb(219, 38, 107);
+}
